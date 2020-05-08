@@ -1,0 +1,18 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Attend</th>
+    </tr>
+  </thead>
+  <tbody>
+      {{#each this.data}}
+    <tr>
+      <th scope="row">{{name}}</th>
+      <td>{{email}}</td>
+      <td>{{attend}}</td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
